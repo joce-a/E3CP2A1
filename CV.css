@@ -1,0 +1,172 @@
+body {
+	font-family: Verdana;
+	background-color: lightgrey;
+}
+
+h4 {
+	color: purple;
+}
+
+span {
+	color: purple;
+}
+
+/*HEADER*/
+.foto {
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	position: relative;
+}
+.row {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	background-color: white;
+	padding: 80px 20px 20px 20px;
+}
+/* Contenedor cuerpo CV */
+.container-cv {
+	width: 60%;
+	margin: auto;
+	background-color: white;
+	padding: 0 20px;
+	border-top-style: solid;
+	border-top-color: lightgrey;
+}
+/* Interior cuerpo del CV */
+/*IZQUIERDA*/
+.col-left {
+	display: table-cell;
+	/*padding: 20px;*/
+	width: 50%;
+}
+/*Detalles experiencia y educación*/
+.mini-col-fecha {
+	display: table-cell;
+	padding-right: 20px;
+}
+.desc-ed {
+	display: table-cell;
+}
+.mini-col-fechaII {
+	padding-right: 20px;
+	width: 75px;
+	float: left;
+}
+.mini-col-fechaII h6 {
+	color: grey;
+}
+.desc-int {
+	background-color: lightgrey;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+/*DERECHA*/
+.col-right {
+	display: table-cell;
+	padding: 30px;
+	width: 50%;
+}
+/*Detalles skills*/
+.skills {
+	color: white;
+	padding-left: 10px;
+}
+.grafica1 {
+	width: 200px;
+	height: 20px;
+	background-color: purple;
+	border-radius: 10px;
+}
+.grafica2 {
+	width: 170px;
+	height: 20px;
+	background-color: purple;
+	border-radius: 10px;
+}
+.grafica3 {
+	width: 140px;
+	height: 20px;
+	background-color: purple;
+	border-radius: 10px;
+}
+.grafica4 {
+	width: 110px;
+	height: 20px;
+	background-color: purple;
+	border-radius: 10px;
+}
+.grafica5 {
+	width: 80px;
+	height: 20px;
+	background-color: purple;
+	border-radius: 10px;
+}
+/*Detalles idiomas*/
+.idioma1 {
+	display: table-cell;
+	padding-right: 20px;
+}
+.idioma2 {
+	display: table-cell;
+	padding-right: 7px;
+}
+.corazones {
+	display: table-cell;
+	background-color: purple;
+	color: white;
+	text-align: right;
+}
+/*Detalles hobbies*/
+.hobbies {
+	color: white;
+	padding: 0;
+}
+.hobbies li {
+	float: left;
+	list-style-type: none;
+	margin-right: 20px;
+	background-color: purple;
+}
+.graf-h1 {
+	width: 70px;
+	background-color: purple;
+	position: absolute;
+	display: inline-block;
+}
+.graf-h2 {
+	width: 60px;
+	background-color: purple;
+	/*display: inline-block;*/
+	position: absolute;
+	margin-left: 90px;
+}
+.graf-h3 {
+	width: 87px;
+	background-color: purple;
+	display: inline-block;
+	position: absolute;
+	margin-left: 170px;
+}
+/*FOOTER*/
+.cierre {
+	border-top-style: solid;
+	border-top-color: lightgrey;
+}
+.cierre h6 {
+	text-align: right;
+	color: lightgrey;
+	padding-bottom: 20px;
+}
+
+/*RESPONSIVIDAD*/
+@media (max-width: 480px) {
+	.col-left {
+		width: 100%;
+		display: table-caption;
+	}
+	.col-right {
+		width: 100%;
+	}
