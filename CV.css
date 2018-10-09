@@ -1,6 +1,7 @@
 body {
 	font-family: Verdana;
 	background-color: lightgrey;
+	margin-top: 150px;
 }
 
 h4 {
@@ -12,18 +13,25 @@ span {
 }
 
 /*HEADER*/
+
+.divfoto {
+	position: relative;
+	top: -80px;
+}
+
 .foto {
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	position: relative;
+	text-align: center;
+	/*position: relative;*/
 }
 .row {
 	text-align: center;
 	width: 60%;
 	margin: auto;
 	background-color: white;
-	padding: 80px 20px 20px 20px;
+	padding: 0 20px 20px 20px;
 }
 /* Contenedor cuerpo CV */
 .container-cv {
@@ -170,3 +178,4 @@ span {
 	.col-right {
 		width: 100%;
 	}
+
